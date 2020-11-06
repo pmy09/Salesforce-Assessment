@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <script src="jquery-3.3.1.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div id="store">
+        MC-HAKNAY
+      </div>
+      <div id="cart-container">
+        $0
+      </div>
+      <button class="check-out">Check Out</button>
+      <div id="user-data">
+        <div class="neo">
+          <a class="new-user">New to this site? Join now for a 5% discount</a>
+          <button id="sign-up">Sign Up</button>
+        </div>
+        <form id="cart-form" method="post" action="data/cartSubmit.json">
+          <br/>
+          <label>Name</label>
+          <input name="name" type="text"></input>
+          <br/>
+          <label>Email</label>
+          <input name="email" type="text"></input>
+          <br/>
+          <label>Newsletter</label>
+          <input name="wantNewsletter" id="newsletter-checkbox" type="checkbox" checked></input>
+          <br/>
+          <select name="newsletterFrequency" id="newsletter-frequency">
+            <option>-</option>
+            <option selected>Weekly</option>
+            <option>Monthly</option>
+          </select>
+          <br/>
+          <button id="submit-cart">Submit</button>
+        </form>
+        <div id="feedback-message"></div>
+      </div>
+      <section class="fashion">
+        <header>
+          <h2>Fashion</h2>
+        </header>
+        <div id="container1">
+          <br style='clear: left;'/>
+        </div>
+      </section>
+      <br>
+      <section class="furniture">
+        <header>
+          <h2>Furniture</h2>
+        </header>
+        <div id="container2">
+          <br style='clear: left;'/>
+        </div>
+      </section>
+      <br>
+      <section class="cars">
+        <header>
+          <h2>Cars</h2>
+        </header>
+        <div id="container3">
+          <br style='clear: left;'/>
+        </div>
+      </section>
+    </body>
+</html>
