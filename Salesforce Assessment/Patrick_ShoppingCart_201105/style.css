@@ -75,24 +75,24 @@ body {
 }
 
 .fashion {
-  background-color: rgb(9, 167, 30);
+  /* background-color: rgb(9, 167, 30); */
   padding: 12px;
   margin: 12px;
-  border: 23px solid black;
+  border: 3px solid black;
 }
 
 .furniture {
-  background-color: rgb(197, 170, 15);
+  /* background-color: rgb(197, 170, 15); */
   padding: 12px;
   margin: 12px;
-  border: 23px solid black;
+  border: 3px solid black;
 }
 
 .cars {
-  background-color: rgb(24, 12, 189);
+  /* background-color: rgb(24, 12, 189); */
   padding: 12px;
   margin: 12px;
-  border: 23px solid black;
+  border: 3px solid black;
 }
 
 h2 {
