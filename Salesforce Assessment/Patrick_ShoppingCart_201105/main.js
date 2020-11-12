@@ -85,6 +85,8 @@ $(document).ready(function() {
   $('.check-out').on('click', function(){
     let total = $('#cart-container').text();
     alert('Your total charge is ' + total);
+    cart = 0;
+    $('#cart-container').text('$' + cart);
   });
 
 
