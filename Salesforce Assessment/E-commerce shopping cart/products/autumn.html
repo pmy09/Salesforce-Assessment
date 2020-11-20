@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <script src="../jquery-3.3.1.js"></script>
+        <script src="products.js"></script>
+        <link rel="stylesheet" type="text/css" href="products.css">
+    </head>
+    <body>
+      <nav class="navbar">
+        <a href="../index.html"><span class="shop-name">MC-HAKNAY</span> </a>
+       
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../category.html#fashion">Fashion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../category.html#beddings"> Beddings</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="../category.html#appliances">Appliances</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white btn test" id="cart" href="../cart.html">My Cart</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="view">
+        <div class="item" data-id="1001">
+            <ul>
+                <li class="pics" data-pic="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12105393846_1602708471_500x500.jpg?v=1604938858" id="m1">
+                  <img src="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12105393846_1602708471_500x500.jpg?v=1604938858"></img></li>
+                <li class="pics" data-pic="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12105420059_1602708471_463x463.jpg?v=1604938845" id="m2">
+                  <img src="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12105420059_1602708471_463x463.jpg?v=1604938845"></img></li>
+                <li class="pics" data-pic="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12105399636_1602708471_463x463.jpg?v=1604938850" id="m3">
+                  <img src="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12105399636_1602708471_463x463.jpg?v=1604938850"></li>
+            </ul>
+          </div>
+          <div class="main" data-pic="https://cdn.shopify.com/s/files/1/0491/0589/5576/products/18536200782_1602708471_463x463.jpg?v=1604938853">
+            <div class="name" id="name" data-name="Silver Autumn">Silver Autumn</div>
+            <div class="description">Autumn Long Sleeve Cardigan Jacket Shorts Solid Color</div>
+            <div class="price" data-price="165">GHC 165</div>
+            <button class="item-add" href="../cart.html">Add to cart</button>
+            <!-- <button class="item-remove">Remove</button> -->
+            <br/>
+            <select name="sizes" id="sizes">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <br/>
+            <label>Quantity: <input type="number" id="data" name="products[0395][quantity]" size="3" min="0" value="1"></label>
+            <!-- <select id="quant" class="form-field-input form-field-select form-field-filled" aria-label="Quantity" data-quantity-select=""> -->
+                <!-- <label for="quant">Quantity</label> -->
+                <!-- <input type="number" id="quant" name="products[0395][quantity]" size="3" min="0" value="1"> -->
+                <!-- <option selected="" value="1">
+                  1
+                </option>
+              
+                <option value="2">
+                  2
+                </option>
+              
+                <option value="3">
+                  3
+                </option>
+              
+                <option value="4">
+                  4
+                </option>
+              
+                <option value="5">
+                  5
+                </option>
+              
+                <option value="6">
+                  6
+                </option>
+              
+                <option value="7">
+                  7
+                </option>
+              
+                <option value="8">
+                  8
+                </option>
+              
+                <option value="9">
+                  9
+                </option>
+              
+                <option value="10+">
+                    10+
+                </option> -->
+            <!-- </select> -->
+            <br/>
+            <!-- <div class="prod-id"><span>this.id</span></div> -->
+            <p>Choose Color</p>
+            <ul class="thumbnails">
+                <li><a href="#m1">Yellow</a></li>
+                <li><a href="#m2">Orange</a></li>
+                <li><a href="#m3">Pink</a></li>
+            </ul>
+            <br/>
+            <a class="more-info-link" href="#">More info</a>
+            <div class="more-info">Clothing Length : REGULAR
+                Thickness : STANDARD
+                Hooded : No
+                Closure Type : Single Breasted
+                Item Type : Outerwear & Coats
+                Style : Casual
+                Decoration : Button
+                Gender : Women
+                Outerwear Type : Jackets</div>
+                <br/>
+                
+          </div>
+      </div>
+      
+      <!-- <form name="ShoppingList">
+        <fieldset>
+            <legend>Shopping cart</legend>
+            <label>Item: <input type="text" name="name"></label>
+            <label>Quantity: <input type="text" name="data"></label>
+    
+            <input type="button" value="Save"   onclick="SaveItem()">
+            <input type="button" value="Update" onclick="ModifyItem()">
+            <input type="button" value="Delete" onclick="RemoveItem()">
+        </fieldset>
+        <div id="items_table">
+            <h2>Shopping List</h2>
+            <table id="list"></table>
+            <label><input type="button" value="Clear" onclick="ClearAll()">
+            * Delete all items</label>
+        </div>
+    </form>   -->
+
+    </body>
+</html>
