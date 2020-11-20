@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <script src="jquery-3.3.1.js"></script>
+        <script src="products/products.js"></script>
+        <link rel="stylesheet" type="text/css" href="cart.css">
+    </head>
+    <body  onload="doShowAll()">
+      <nav class="navbar">
+        <a href="index.html"><span class="shop-name">MC-HAKNAY</span> </a>
+       
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="category.html#fashion">Fashion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html#beddings"> Beddings</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="category.html#appliances">Appliances</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white btn" id="cart" href="#checkout">My Cart</a>
+            </li>
+      </nav>
+      <!-- <div id="content">
+        <h1>Your Shopping Cart</h1>
+        <form id="shopping-cart" action="cart.html" method="get">
+          <table class="shopping-cart">
+            <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Qty</th>
+              <th scope="col" colspan="2">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+          </table>
+          <p id="sub-total">
+            <strong>Sub Total</strong>: <span id="stotal"></span>
+          </p>
+          <ul id="shopping-cart-actions">
+            <li>
+              <input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+            </li>
+            <li>
+              <input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+            </li>
+            <li>
+              <a href="index.html" class="btn">Continue Shopping</a>
+            </li>
+            <li>
+              <a href="checkout.html" class="btn">Go To Checkout</a>
+            </li>
+          </ul>
+        </form>
+      </div> -->
+      <div class="basket-module">
+        <label for="promo-code">Enter a promotional code</label>
+        <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+        <button class="promo-code-cta">Apply</button>
+      </div>
+      <!-- <div class="basket-labels">
+        <ul>
+          <li class="item item-heading">Item</li>
+          <li class="price">Price</li>
+          <li class="quantity">Quantity</li>
+          <li class="subtotal">Subtotal</li>
+        </ul>
+      </div> -->
+      <!-- <div class="cash">HELLO</div> -->
+      <form name="ShoppingList">
+        <!-- <fieldset>
+            <legend>Shopping cart</legend>
+            <label>Item: <input type="text" name="name" id="name"></label>
+            
+            <label>Quantity: <input type="number" id="dat" name="products[0395][quantity]" size="3" min="0" value="1"></label>
+    
+            <input type="button" value="Save"   onclick="SaveItem()">
+            <input type="button" value="Update" onclick="ModifyItem()">
+            <input type="button" value="Delete" onclick="RemoveItem()">
+        </fieldset> -->
+        <div id="items_table">
+            <h2>Shopping List</h2>
+            <table id="list"></table>
+            <label><input type="button" value="Clear" onclick="ClearAll()">
+            * Delete all items</label>
+        </div>
+        
+    </form>
+    <div class="totals-item totals-item-total">
+      <label>Total GHC</label>
+      <div class="totals-value" id="cart-total"> 0</div>
+    </div>
+    <a class="checkout" href="checkout.html">Checkout</a>
+    <!-- <div>
+      <input type="button" value="Save"   onclick="SaveItem()">
+      <input type="button" value="Update" onclick="ModifyItem()">
+      <input type="button" value="Delete" onclick="RemoveItem()">
+    </div> -->
+    
+    </body>
+</html>
