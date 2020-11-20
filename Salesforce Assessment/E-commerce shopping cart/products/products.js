@@ -12,7 +12,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic = `<a href="products/autumn.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name = $(this).parent().children().first().data('name');
       var data = $("#data").val();
@@ -33,7 +33,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic1 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic1 = `<a href="products/blanket.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name1 = $(this).parent().children().first().data('name');
       var data1 = $("#data").val();
@@ -54,7 +54,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic2 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic2 = `<a href="products/fluffy.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name2 = $(this).parent().children().first().data('name');
       var data2 = $("#data").val();
@@ -75,7 +75,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic3 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic3 = `<a href="products/naptune.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name3 = $(this).parent().children().first().data('name');
       var data3 = $("#data").val();
@@ -94,7 +94,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic4 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic4 = `<a href="products/shaggy.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name4 = $(this).parent().children().first().data('name');
       var data4 = $("#data").val();
@@ -113,7 +113,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic5 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic5 = `<a href="products/slicer.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name5 = $(this).parent().children().first().data('name');
       var data5 = $("#data").val();
@@ -132,7 +132,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic6 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic6 = `<a href="products/speaker.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name6 = $(this).parent().children().first().data('name');
       var data6 = $("#data").val();
@@ -151,7 +151,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic7 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic7 = `<a href="products/track.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name7 = $(this).parent().children().first().data('name');
       var data7 = $("#data").val();
@@ -170,7 +170,7 @@ $(document).ready(function() {
       alert('added to cart')
       
       let pics = $(this).parent().data('pic');
-      let pic8 = `<img src=`+'"'+pics+'"'+`></img>`;
+      let pic8 = `<a href="products/wool.html"><img src=`+'"'+pics+'"'+`></img></a>`;
       
       var name8 = $(this).parent().children().first().data('name');
       var data8 = $("#data").val();
