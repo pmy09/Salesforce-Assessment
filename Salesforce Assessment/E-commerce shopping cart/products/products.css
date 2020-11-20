@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(226, 217, 217);
+}
+
+.navbar{
+  background-color: black !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.nav-link{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: red;
+}
+.nav-link:active{
+color:  yellow;
+}
+
+.shop-name {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.name {
+    margin-top: 120px;
+    font: italic bold 30px monospace;
+    margin-left: 30px;
+}
+
+.view {
+    display: flex;
+    vertical-align: top;
+}
+
+img {
+    width: 50vw;
+}
+
+.item {
+    margin-top: 120px;
+    /* width: 50%;  */
+}
+
+.main {
+    background-color: pink;
+    width: 40%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    position: fixed;
+    height: viewport-length;
+    top: 120px;
+    right: 0;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 1000px;
+    border-radius: 50px;
+}
+
+.description,
+label,
+#data,
+.prod-id,
+.more-info,
+.price,
+.more-info-link,
+select,
+p,
+button {
+    text-align: start;
+    margin: 10px;
+    margin-left: 30px;
+    
+}
+
+ul {
+    
+    list-style: none;
+}
+
+.pics {
+    margin-bottom: 40px;
+}
+
+img:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+button {
+    font-size: 20px;
+}
+
+button:hover {
+    color: blue;
+    background-color: red;
+}
+
+p {
+    margin-bottom: -15px;
+}
+.thumbnails {
+    display: inline-flex;
+}
+
+.thumbnails li {
+    margin-right: 10px;
+}
+
+.thumbnails li a {
+    text-decoration: none;
+    color: red;
+}
+
+.thumbnails li a:hover {
+    color: yellow;
+}
+
+select {
+    width: 50%;
+    font-size: 20px
+}
+
+.main .more-info {
+    display: none;;
+}
+
+.more-info-link {
+    margin-left: 100px;
+}
+
+.cash {
+    display: block;
+}
+
+
+
+
