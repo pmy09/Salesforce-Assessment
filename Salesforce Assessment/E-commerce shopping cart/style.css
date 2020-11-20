@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+    /* background-color: rgb(241, 180, 158); */
+    background-image: url(https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80);
+    font-family: Montserrat;
+    font-style: italic;
+    text-align: center;
+    background-size: cover;
+}
+
+.shop-name {
+    font-size: 200px;
+}
+
+@media (max-width: 90rem) {
+    .shop-name {
+        font-size: 70px;
+    }
+}
+
+.btn{
+    /* background-color: rgb(204, 9, 9); */
+    color: rgb(145, 8, 8);
+    font-size: 25px;
+    margin: 3px;
+    width: 25%;
+    height: 250%;
+    text-align: justify;
+}
+
+.btn:hover{
+    color:  rgb(19, 8, 119);
+    width: 150px;
+}
+
+h1,
+h2,
+h3,
+div {
+    height: 100px;
+}
+
+#fas {
+    background-image: url(https://cdn.shopify.com/s/files/1/0491/0589/5576/products/12708345_c51e5234-fbf0-4d53-8cad-5165934639e5_224x335.jpg?v=1604975313);
+}
+
+#bed {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1JexmaDMG5uJjSZFAq6zmspXay.jpg);
+}
+
+#app {
+    background-image: url(https://cdn.shopify.com/s/files/1/0491/0589/5576/products/T8-Portable-Mini-Wireless-Smart-Translator-40-Languages-Two-Way-Real-Time-Instant-Voice-Translator-APP_669x669.jpg?v=1604935442);
+}
+
