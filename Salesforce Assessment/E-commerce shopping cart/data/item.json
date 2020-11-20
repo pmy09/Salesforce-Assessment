@@ -1,0 +1,78 @@
+{
+  "items1": [{
+    "id": 1000,
+    "name": "Fluffy Teddy",
+    "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/D3731CDDE8E3B2B028C08E4304D81B34_463x463.jpg?v=1602143577",
+    "description": "Winter Neon Fluorescent Warm Cardigan Cropped Jacket",
+    "price": 155,
+    "link": "../products/fluffy.html",
+    "moreInfo": "Prime Fashion For Those Cold Days"
+    },{
+      "id": 1001,
+      "name": "Silver Autumn",
+      "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/18536200782_1602708471_463x463.jpg?v=1604938853",
+      "description": "Autumn Long Sleeve Cardigan Jacket Shorts Solid Color",
+      "price": 165,
+      "link": "../products/autumn.html",
+      "moreInfo": "Look Good, Feel Good"
+      },{
+        "id": 1002,
+        "name": "Nautilus Tracksuit",
+        "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/19734530796_1602708471_800x800.jpg?v=1604975313",
+        "description": "A Tracksuit",
+        "price": 100,
+        "link": "../products/track.html",
+        "moreInfo": "A special tracksuit for every special lady"
+        }],
+        "items2": [{
+          "id": 1003,
+          "name": "Fluffy Shaggy",
+          "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/H9669f5fb63494b8980251a280add0d05U_669x669.jpg?v=1602227949",
+          "description": "80x120cm 1pc Soft Warm Fluffy Shaggy Bedspread",
+          "price": 300,
+          "link": "../products/shaggy.html",
+          "moreInfo": "The only way to truly sleep like a king"
+          },{
+            "id": 1004,
+            "name": "Merino Wool",
+            "image": "https://ae01.alicdn.com/kf/HTB13QHqdfQs8KJjSZFEq6A9RpXap.jpg",
+            "description": "Sofa Cover Chunky Knitted Blankets Handmade Bedspreads Super Thick Yarn Merino Wool Soft Blanket Warm Winter Throw Blanket",
+            "price": 180,
+            "link": "../products/wool.html",
+            "moreInfo": "A must-have for every home"
+            },{
+              "id": 1005,
+              "name": "Kozi Blanket",
+              "image": "https://ae01.alicdn.com/kf/HTB1cw0UUNTpK1RjSZFKq6y2wXXar.jpg",
+              "description": "2 in 1 Flannel Cushion Blanket",
+              "price": 200,
+              "link": "../products/blanket.html",
+              "moreInfo": "The perfect blanket for your perfect dreams"
+              }],
+              "items3": [{
+                "id": 1006,
+                "name": "Naptune",
+                "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/3639002201000_500x500.jpg?v=1604928348",
+                "description": "The Sleeping Headphone Headband",
+                "price": 250,
+                "link": "../products/naptune.html",
+                "moreInfo": "Keep the party going even in your sleep"
+                },{
+                  "id": 1007,
+                  "name": "Zealot S1",
+                  "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/1452308070224_500x414.png?v=1604960777",
+                  "description": "LED Flashlight & Bluetooth Speaker",
+                  "price": 120,
+                  "link": "../products/speaker.html",
+                  "moreInfo": "Keep the party going even when the lights are out"
+                  },{
+                    "id": 1008,
+                    "name": "Shreddz",
+                    "image": "https://cdn.shopify.com/s/files/1/0491/0589/5576/products/Multifunctional-Manual-Vegetable-Fruit-Cutter-Cheese-Grater-Clever-Kitchen-Tools-Spiral-Slicer-Chopper-Slicer-Accessories_899f0554-13e4-416d-aada-1aa3ea2529a7_463x463.jpg?v=1604942461",
+                    "description": "Multifunctional Manual Vegetable Fruit Cutter",
+                    "price": 85,
+                    "link": "../products/slicer.html",
+                    "moreInfo": "For quick efficient slicing of your fruits and veggies"
+                    }]
+}
+
